@@ -1,7 +1,7 @@
 Repositório de Estudos
+----
 
 PROGRESSO
-----
 
 1. Aula Lógica de programação
 2. Aula Metodologias ágeis
