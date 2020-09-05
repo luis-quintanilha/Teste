@@ -6,4 +6,5 @@ PROGRESSO
 1. Aula Lógica de programação
 2. Aula Metodologias ágeis
 3. Aula Git
-4. Aula de HTML (Doing)
+4. Aula de HTML
+5. Aula de CSS
