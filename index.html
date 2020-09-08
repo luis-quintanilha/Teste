@@ -1,66 +1,66 @@
 <html>
   <head>
-    <title>Minha Loja na Internet</title>
-    
+    <title>Página em Bootstrap </title>
+
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
 
   </head>
   
   <body>
-    <div id="cabecalho">
-      <h1>Minha loja na internet</h1>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Minha loja na internet</h3>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">I-LOJA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://phqdesign.com.br">Fique por Dentro!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://via.placeholder.com/1920x800" alt="First slide">
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div id="navbar">
-      <div class="menu-item"><a href="index.html">Home</a></div>
-      <div class="menu-item"><a href="quem-somos.html">Quem Somos</a></div>
-      <div class="menu-item"><a href="#rodape">Contato</a></div>
-      <div class="menu-item"><a href="blog.html">Fique por Dentro</a></div>
-    </div>
 
-    <div id="section-image">
-      <img class="slider" src="https://via.placeholder.com/900x280">
-    </div>
-
-    <div id="titulo-destaque">
-      <h2>Destaques</h2>
-    </div>
     
-    <div id="produtos">
-      <div class="produtos-destaque">
-        <img src="https://via.placeholder.com/280">
-        <h3>R$10,00</h3>
-        <p>Lorem Ipsum at si dolor restriction antes unaques at disciplus, seed adequus enton cassilds.</p>
-      </div>
-      <div class="produtos-destaque">
-        <img src="https://via.placeholder.com/280">
-        <h3>R$10,00</h3>
-        <p>Lorem Ipsum at si dolor restriction antes unaques at disciplus, seed adequus enton cassilds.</p>
-      </div>
-      <div class="produtos-destaque">
-        <img src="https://via.placeholder.com/280">
-        <h3>R$10,00</h3>
-        <p>Lorem Ipsum at si dolor restriction antes unaques at disciplus, seed adequus enton cassilds.</p>
-      </div>
-    </div>
-
-    <div id="footer">
-      <div class="coluna-footer" id="redes-sociais">
-      <h3>Contatos</h3>
-        <img src="https://via.placeholder.com/30"> +55 11 96790-2508 <br>
-        <img src="https://via.placeholder.com/30"> philippe.quintanilha@gmail.com <br>
-        <img src="https://via.placeholder.com/30"> http://phqdesign.com.br <br>
-        <img src="https://via.placeholder.com/30"> http://linkedin.com/in/luisquintanilha <br>
-      </div>
-      <div class="coluna-footer" id="email">
-        <h3>Receba nossas novidades</h3>
-        <input type="email" id="inputEmail" placeholder="digite seu email...">
-        <button>Enviar</button>
-      </div>
-    </div>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
   </body>
 </html>

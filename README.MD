@@ -3,8 +3,10 @@ Repositório de Estudos
 
 PROGRESSO
 
-1. Aula Lógica de programação
-2. Aula Metodologias ágeis
-3. Aula Git
-4. Aula de HTML
-5. Aula de CSS
+1. Lógica de programação
+2. Metodologias ágeis
+3. Git
+4. HTML
+5. CSS
+6. Bootstrap
+
